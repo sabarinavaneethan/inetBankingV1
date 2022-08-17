@@ -51,6 +51,10 @@ public class ReadConfig {
 		
 	}
 	
+	public String getCustomerName() {
+		String customerID = pro.getProperty("customerName");
+		return customerID;
+	}
 	
 	
 	

@@ -36,7 +36,7 @@ public class Reporting implements ITestListener {
 
 		htmlReporter.config().setReportName("Functional Test Report");
 
-		htmlReporter.config().setTheme(Theme.DARK);
+		htmlReporter.config().setTheme(Theme.STANDARD);
 
 		extent = new ExtentReports();
 
@@ -77,7 +77,8 @@ public class Reporting implements ITestListener {
 			try {
 				test.fail("Screenshot is below: "+test.addScreenCaptureFromPath(screenShotPath));
 				
-			} catch (Exception e) {
+			} catch (Exception e) 
+			{
 				e.printStackTrace();
 			}
 		}

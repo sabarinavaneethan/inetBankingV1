@@ -316,3 +316,225 @@
 2022-08-17 20:08:45 INFO  ebanking:30 - Customer details provided....
 2022-08-17 20:08:47 INFO  ebanking:54 - Verifing whether the Customer is add Successfully.....
 2022-08-17 20:08:47 INFO  ebanking:61 - TestCase is passed
+2022-08-17 20:11:50 INFO  ebanking:16 - Url is opened
+2022-08-17 20:11:50 INFO  ebanking:21 - Username is entered
+2022-08-17 20:11:50 INFO  ebanking:24 - Password is entered
+2022-08-17 20:11:51 INFO  ebanking:26 - Login Button is clicked
+2022-08-17 20:11:51 INFO  ebanking:31 - testcase is passed
+2022-08-17 20:11:57 INFO  ebanking:22 - Username provided
+2022-08-17 20:11:57 INFO  ebanking:25 - Password provided
+2022-08-17 20:11:59 INFO  ebanking:30 - Customer details provided....
+2022-08-17 20:12:02 INFO  ebanking:54 - Verifing whether the Customer is add Successfully.....
+2022-08-17 20:12:02 INFO  ebanking:61 - TestCase is passed
+2022-08-17 22:05:07 INFO  ebanking:16 - Url is opened
+2022-08-17 22:05:07 INFO  ebanking:21 - Username is entered
+2022-08-17 22:05:07 INFO  ebanking:24 - Password is entered
+2022-08-17 22:05:08 INFO  ebanking:26 - Login Button is clicked
+2022-08-17 22:05:08 INFO  ebanking:31 - testcase is passed
+2022-08-17 22:05:13 INFO  ebanking:22 - Username provided
+2022-08-17 22:05:13 INFO  ebanking:25 - Password provided
+2022-08-17 22:05:14 INFO  ebanking:30 - Customer details provided....
+2022-08-17 22:05:17 INFO  ebanking:54 - Verifing whether the Customer is add Successfully.....
+2022-08-17 22:05:17 INFO  ebanking:61 - TestCase is passed
+2022-08-17 22:10:57 INFO  ebanking:22 - Username provided
+2022-08-17 22:10:57 INFO  ebanking:25 - Password provided
+2022-08-17 22:10:58 INFO  ebanking:30 - Customer details provided....
+2022-08-17 22:10:59 INFO  ebanking:52 - Verifing whether the Customer is add Successfully.....
+2022-08-17 22:11:55 INFO  ebanking:22 - Username provided
+2022-08-17 22:11:55 INFO  ebanking:25 - Password provided
+2022-08-17 22:11:56 INFO  ebanking:30 - Customer details provided....
+2022-08-17 22:11:59 INFO  ebanking:54 - Verifing whether the Customer is add Successfully.....
+2022-08-17 22:12:40 INFO  ebanking:22 - Username provided
+2022-08-17 22:12:40 INFO  ebanking:25 - Password provided
+2022-08-17 22:12:41 INFO  ebanking:30 - Customer details provided....
+2022-08-17 22:12:47 INFO  ebanking:54 - Verifing whether the Customer is add Successfully.....
+2022-08-17 22:17:12 INFO  ebanking:22 - Username provided
+2022-08-17 22:17:12 INFO  ebanking:25 - Password provided
+2022-08-17 22:17:13 INFO  ebanking:30 - Customer details provided....
+2022-08-17 22:17:20 INFO  ebanking:54 - Verifing whether the Customer is add Successfully.....
+2022-08-17 22:17:20 INFO  ebanking:61 - TestCase is passed
+2022-08-17 22:28:20 INFO  ebanking:22 - Username provided
+2022-08-17 22:28:20 INFO  ebanking:25 - Password provided
+2022-08-17 22:28:21 INFO  ebanking:30 - Customer details provided....
+2022-08-17 22:28:24 INFO  ebanking:56 - 47616
+2022-08-17 22:28:24 INFO  ebanking:58 - Verifing whether the Customer is add Successfully.....
+2022-08-17 22:28:24 INFO  ebanking:65 - TestCase is passed
+2022-08-17 22:28:46 INFO  ebanking:22 - Username provided
+2022-08-17 22:28:46 INFO  ebanking:25 - Password provided
+2022-08-17 22:28:47 INFO  ebanking:30 - Customer details provided....
+2022-08-17 22:28:51 INFO  ebanking:56 - 99038
+2022-08-17 22:28:51 INFO  ebanking:58 - Verifing whether the Customer is add Successfully.....
+2022-08-17 22:28:51 INFO  ebanking:65 - TestCase is passed
+2022-08-17 23:13:49 INFO  ebanking:22 - Username provided
+2022-08-17 23:13:49 INFO  ebanking:25 - Password provided
+2022-08-17 23:13:50 INFO  ebanking:30 - Customer details provided....
+2022-08-17 23:16:02 INFO  ebanking:23 - Username provided
+2022-08-17 23:16:02 INFO  ebanking:26 - Password provided
+2022-08-17 23:16:03 INFO  ebanking:31 - Customer details provided....
+2022-08-17 23:16:06 INFO  ebanking:61 - 83383
+2022-08-17 23:16:06 INFO  ebanking:63 - Verifing whether the Customer is add Successfully.....
+2022-08-17 23:16:06 INFO  ebanking:70 - TestCase is passed
+2022-08-17 23:16:42 INFO  ebanking:23 - Username provided
+2022-08-17 23:16:42 INFO  ebanking:26 - Password provided
+2022-08-17 23:16:43 INFO  ebanking:31 - Customer details provided....
+2022-08-17 23:16:46 INFO  ebanking:61 - 61560
+2022-08-17 23:16:46 INFO  ebanking:63 - Verifing whether the Customer is add Successfully.....
+2022-08-17 23:16:46 INFO  ebanking:70 - TestCase is passed
+2022-08-17 23:30:23 INFO  ebanking:23 - Username provided
+2022-08-17 23:30:23 INFO  ebanking:26 - Password provided
+2022-08-17 23:30:24 INFO  ebanking:31 - Customer details provided....
+2022-08-17 23:33:24 INFO  ebanking:23 - Username provided
+2022-08-17 23:33:25 INFO  ebanking:26 - Password provided
+2022-08-17 23:33:26 INFO  ebanking:31 - Customer details provided....
+2022-08-17 23:33:28 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-17 23:33:28 INFO  ebanking:68 - TestCase is passed
+2022-08-17 23:50:08 INFO  ebanking:23 - Username provided
+2022-08-17 23:50:08 INFO  ebanking:26 - Password provided
+2022-08-17 23:50:09 INFO  ebanking:31 - Customer details provided....
+2022-08-17 23:50:12 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-17 23:50:12 INFO  ebanking:68 - TestCase is passed
+2022-08-17 23:50:17 INFO  ebanking:20 - Username is provided
+2022-08-17 23:50:17 INFO  ebanking:23 - Password is provided
+2022-08-17 23:50:18 INFO  ebanking:26 - loginbutton is clicked
+2022-08-17 23:50:18 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-17 23:53:00 INFO  ebanking:23 - Username provided
+2022-08-17 23:53:01 INFO  ebanking:26 - Password provided
+2022-08-17 23:53:02 INFO  ebanking:31 - Customer details provided....
+2022-08-17 23:53:04 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-17 23:53:05 INFO  ebanking:68 - TestCase is passed
+2022-08-17 23:53:10 INFO  ebanking:20 - Username is provided
+2022-08-17 23:53:10 INFO  ebanking:23 - Password is provided
+2022-08-17 23:53:11 INFO  ebanking:26 - loginbutton is clicked
+2022-08-17 23:53:11 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-17 23:53:12 INFO  ebanking:36 - Edit customer Button is clicked
+2022-08-17 23:53:12 INFO  ebanking:39 - customer Id is passed on the edit customer page
+2022-08-17 23:53:13 INFO  ebanking:43 - submit button is clicked
+2022-08-17 23:53:13 INFO  ebanking:46 - Testcase is passed
+2022-08-17 23:54:07 INFO  ebanking:23 - Username provided
+2022-08-17 23:54:07 INFO  ebanking:26 - Password provided
+2022-08-17 23:54:08 INFO  ebanking:31 - Customer details provided....
+2022-08-17 23:54:10 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-17 23:54:11 INFO  ebanking:68 - TestCase is passed
+2022-08-17 23:54:16 INFO  ebanking:20 - Username is provided
+2022-08-17 23:54:16 INFO  ebanking:23 - Password is provided
+2022-08-17 23:54:17 INFO  ebanking:26 - loginbutton is clicked
+2022-08-17 23:54:17 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-17 23:54:18 INFO  ebanking:36 - Edit customer Button is clicked
+2022-08-17 23:54:18 INFO  ebanking:39 - customer Id is passed on the edit customer page
+2022-08-17 23:54:19 INFO  ebanking:43 - submit button is clicked
+2022-08-17 23:54:26 INFO  ebanking:49 - Testcase is passed
+2022-08-17 23:59:24 INFO  ebanking:23 - Username provided
+2022-08-17 23:59:24 INFO  ebanking:26 - Password provided
+2022-08-17 23:59:25 INFO  ebanking:31 - Customer details provided....
+2022-08-17 23:59:27 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-17 23:59:27 INFO  ebanking:68 - TestCase is passed
+2022-08-17 23:59:32 INFO  ebanking:20 - Username is provided
+2022-08-17 23:59:32 INFO  ebanking:23 - Password is provided
+2022-08-17 23:59:34 INFO  ebanking:26 - loginbutton is clicked
+2022-08-17 23:59:34 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-17 23:59:34 INFO  ebanking:36 - Edit customer Button is clicked
+2022-08-17 23:59:34 INFO  ebanking:39 - customer Id is passed on the edit customer page
+2022-08-17 23:59:35 INFO  ebanking:43 - submit button is clicked
+2022-08-17 23:59:42 INFO  ebanking:49 - Testcase is passed
+2022-08-18 00:00:06 INFO  ebanking:23 - Username provided
+2022-08-18 00:00:06 INFO  ebanking:26 - Password provided
+2022-08-18 00:00:07 INFO  ebanking:31 - Customer details provided....
+2022-08-18 00:00:10 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-18 00:00:10 INFO  ebanking:68 - TestCase is passed
+2022-08-18 00:00:14 INFO  ebanking:20 - Username is provided
+2022-08-18 00:00:14 INFO  ebanking:23 - Password is provided
+2022-08-18 00:00:16 INFO  ebanking:26 - loginbutton is clicked
+2022-08-18 00:00:16 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-18 00:00:16 INFO  ebanking:36 - Edit customer Button is clicked
+2022-08-18 00:00:16 INFO  ebanking:39 - customer Id is passed on the edit customer page
+2022-08-18 00:00:17 INFO  ebanking:43 - submit button is clicked
+2022-08-18 00:00:24 INFO  ebanking:49 - Testcase is passed
+2022-08-18 00:16:20 INFO  ebanking:23 - Username provided
+2022-08-18 00:16:21 INFO  ebanking:26 - Password provided
+2022-08-18 00:16:22 INFO  ebanking:31 - Customer details provided....
+2022-08-18 00:16:24 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-18 00:16:24 INFO  ebanking:68 - TestCase is passed
+2022-08-18 00:16:30 INFO  ebanking:20 - Username is provided
+2022-08-18 00:16:30 INFO  ebanking:23 - Password is provided
+2022-08-18 00:16:31 INFO  ebanking:26 - loginbutton is clicked
+2022-08-18 00:16:31 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-18 00:16:33 INFO  ebanking:36 - Edit customer Button is clicked
+2022-08-18 00:16:33 INFO  ebanking:39 - customer Id is passed on the edit customer page
+2022-08-18 00:16:33 INFO  ebanking:43 - submit button is clicked
+2022-08-18 00:16:41 INFO  ebanking:53 - Test case is passed
+2022-08-18 00:19:41 INFO  ebanking:23 - Username provided
+2022-08-18 00:19:41 INFO  ebanking:26 - Password provided
+2022-08-18 00:19:42 INFO  ebanking:31 - Customer details provided....
+2022-08-18 00:19:45 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-18 00:19:45 INFO  ebanking:68 - TestCase is passed
+2022-08-18 00:19:50 INFO  ebanking:20 - Username is provided
+2022-08-18 00:19:50 INFO  ebanking:23 - Password is provided
+2022-08-18 00:19:52 INFO  ebanking:26 - loginbutton is clicked
+2022-08-18 00:19:52 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-18 00:19:52 INFO  ebanking:36 - Edit customer Button is clicked
+2022-08-18 00:19:53 INFO  ebanking:39 - customer Id is passed on the edit customer page
+2022-08-18 00:19:53 INFO  ebanking:43 - submit button is clicked
+2022-08-18 00:20:01 INFO  ebanking:59 - Test case is failed
+2022-08-18 00:23:47 INFO  ebanking:23 - Username provided
+2022-08-18 00:23:47 INFO  ebanking:26 - Password provided
+2022-08-18 00:23:48 INFO  ebanking:31 - Customer details provided....
+2022-08-18 00:23:51 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-18 00:23:51 INFO  ebanking:68 - TestCase is passed
+2022-08-18 00:23:56 INFO  ebanking:20 - Username is provided
+2022-08-18 00:23:56 INFO  ebanking:23 - Password is provided
+2022-08-18 00:23:57 INFO  ebanking:26 - loginbutton is clicked
+2022-08-18 00:23:57 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-18 00:23:58 INFO  ebanking:36 - Edit customer Button is clicked
+2022-08-18 00:23:58 INFO  ebanking:39 - customer Id is passed on the edit customer page
+2022-08-18 00:23:58 INFO  ebanking:43 - submit button is clicked
+2022-08-18 00:23:59 INFO  ebanking:58 - Test case is failed
+2022-08-18 00:25:16 INFO  ebanking:23 - Username provided
+2022-08-18 00:25:16 INFO  ebanking:26 - Password provided
+2022-08-18 00:25:17 INFO  ebanking:31 - Customer details provided....
+2022-08-18 00:25:19 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-18 00:25:19 INFO  ebanking:68 - TestCase is passed
+2022-08-18 00:25:24 INFO  ebanking:20 - Username is provided
+2022-08-18 00:25:24 INFO  ebanking:23 - Password is provided
+2022-08-18 00:25:25 INFO  ebanking:26 - loginbutton is clicked
+2022-08-18 00:25:25 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-18 00:25:26 INFO  ebanking:36 - Edit customer Button is clicked
+2022-08-18 00:25:26 INFO  ebanking:39 - customer Id is passed on the edit customer page
+2022-08-18 00:25:27 INFO  ebanking:43 - submit button is clicked
+2022-08-18 00:25:27 INFO  ebanking:58 - Test case is failed
+2022-08-18 00:27:58 INFO  ebanking:23 - Username provided
+2022-08-18 00:27:58 INFO  ebanking:26 - Password provided
+2022-08-18 00:27:59 INFO  ebanking:31 - Customer details provided....
+2022-08-18 00:28:05 INFO  ebanking:20 - Username is provided
+2022-08-18 00:28:05 INFO  ebanking:23 - Password is provided
+2022-08-18 00:28:07 INFO  ebanking:26 - loginbutton is clicked
+2022-08-18 00:28:07 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-18 00:28:07 INFO  ebanking:36 - Edit customer Button is clicked
+2022-08-18 00:28:07 INFO  ebanking:39 - customer Id is passed on the edit customer page
+2022-08-18 00:28:08 INFO  ebanking:43 - submit button is clicked
+2022-08-18 00:28:08 INFO  ebanking:58 - Test case is failed
+2022-08-18 00:29:06 INFO  ebanking:23 - Username provided
+2022-08-18 00:29:06 INFO  ebanking:26 - Password provided
+2022-08-18 00:29:07 INFO  ebanking:31 - Customer details provided....
+2022-08-18 00:29:09 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-18 00:29:10 INFO  ebanking:68 - TestCase is passed
+2022-08-18 00:29:14 INFO  ebanking:20 - Username is provided
+2022-08-18 00:29:14 INFO  ebanking:23 - Password is provided
+2022-08-18 00:29:15 INFO  ebanking:26 - loginbutton is clicked
+2022-08-18 00:29:15 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-18 00:29:16 INFO  ebanking:36 - Edit customer Button is clicked
+2022-08-18 00:29:16 INFO  ebanking:39 - customer Id is passed on the edit customer page
+2022-08-18 00:29:17 INFO  ebanking:43 - submit button is clicked
+2022-08-18 00:29:17 INFO  ebanking:58 - Test case is failed
+2022-08-18 00:31:16 INFO  ebanking:23 - Username provided
+2022-08-18 00:31:16 INFO  ebanking:26 - Password provided
+2022-08-18 00:31:18 INFO  ebanking:31 - Customer details provided....
+2022-08-18 00:31:20 INFO  ebanking:61 - Verifing whether the Customer is add Successfully.....
+2022-08-18 00:31:20 INFO  ebanking:68 - TestCase is passed
+2022-08-18 00:31:25 INFO  ebanking:20 - Username is provided
+2022-08-18 00:31:25 INFO  ebanking:23 - Password is provided
+2022-08-18 00:31:27 INFO  ebanking:26 - loginbutton is clicked
+2022-08-18 00:31:27 INFO  ebanking:31 - Customer Id is readed from json file
+2022-08-18 00:31:28 INFO  ebanking:36 - Edit customer Button is clicked
+2022-08-18 00:31:28 INFO  ebanking:39 - customer Id is passed on the edit customer page
+2022-08-18 00:31:29 INFO  ebanking:43 - submit button is clicked
+2022-08-18 00:31:29 INFO  ebanking:52 - Test case is passed

@@ -6,13 +6,14 @@ import java.time.Duration;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.inetBanking.pageObjects.AddCustomerPage;
 import org.inetBanking.pageObjects.LoginPage;
+import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TC_AddCustomerTest_003 extends BaseClass 
 {
 	@Test
-	public void addNewCustomer() throws IOException {
+	public void addNewCustomer() throws IOException, InterruptedException {
 		
 		LoginPage lp = new LoginPage(driver);
 		
@@ -29,27 +30,33 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		
 		logger.info("Customer details provided....");
 		cp.newCustomerAdd();
-		
-		
-		
-		String customerN = randomStringGenerator(6);
-		cp.customerName(customerN);
+
+		//String customerN = randomStringGenerator(6);
+		cp.customerName(customername);
 		cp.Gender();
 		cp.dateOfBirth("01","11","1998");
 		cp.address("Madurai Simmakkal");
 		cp.city("Madurai");
 		cp.state("Tamilnadu");
 		cp.pinNo("625001");
-		cp.phoneNo("7448504845");
+		
+		String phoneNo = randomNumberGenerator(10);
+		cp.phoneNo(phoneNo);
 		
 		String s =randomStringGenerator(5);
 		String email=s+"@gmail.com";
 		cp.emailId(email);
 		
-		String phoneNo = randomNumberGenerator(10);
-		cp.password(phoneNo);
+		
+		String password = randomNumberGenerator(7);
+		cp.password(password);
 		
 		cp.submitButton();
+		
+		String getcustomerId = cp.getcustomerId();
+		
+		jsonObject.put("customerID", getcustomerId);
+		filewriter(jsonObject);
 
 		logger.info("Verifing whether the Customer is add Successfully.....");
 		
@@ -66,7 +73,7 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		else
 		{
 			logger.info("Testcase is failed");
-			captureScreen(driver, "addCustomer");
+			captureScreen(driver, "addNewCustomer");
 			Assert.assertTrue(false);
 		}
 	}

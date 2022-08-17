@@ -1,6 +1,11 @@
 package org.inetBanking.testCases;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.time.Duration;
 
@@ -9,6 +14,9 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.inetBanking.utilities.ReadConfig;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -28,8 +36,12 @@ public class BaseClass {
 	public String baseUrl = readconfig.getApplicationURL();
 	public String username = readconfig.getLoginUserName();
 	public String password = readconfig.getLoginPassWord();
+	public String customername = readconfig.getCustomerName();
 	public static WebDriver driver;
 	
+	public static JSONObject jsonObject = new JSONObject();
+	
+	public static JSONParser jsonParser = new JSONParser();
 
 	static Logger logger;
 
@@ -86,7 +98,30 @@ public class BaseClass {
 		return phoneNo;
 	}
 
+	public void filewriter(JSONObject jsonObject) throws IOException {
+		
+		FileWriter fileWriter = new FileWriter("customerId.json");
+		BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+		bufferedWriter.write(jsonObject.toJSONString());
+		bufferedWriter.close();
+		fileWriter.close();
+		
+	}
 
+	public String fileReader() throws IOException, ParseException {
+		
+		FileReader fileReader = new FileReader("customerId.json");
+		BufferedReader bufferedReader = new BufferedReader(fileReader);
+		
+		Object parse = jsonParser.parse(bufferedReader);
+		
+		jsonObject = (JSONObject) parse;
+		
+		String id = (String) jsonObject.get("customerID");
+		
+		return id;
+
+	}
 	
 	
 }

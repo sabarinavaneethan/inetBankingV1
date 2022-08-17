@@ -57,6 +57,10 @@ public class AddCustomerPage {
 	@FindBy(how=How.NAME,using="sub")
 	WebElement submitButton;
 	
+	
+	@FindBy(how=How.XPATH,using="(//table[@id=\"customer\"]//td)[5]")
+	WebElement customerId;
+	
 	public void exitButton() {
 		exitButton.click();
 	}
@@ -119,7 +123,10 @@ public class AddCustomerPage {
 		submitButton.click();
 	}
 	
-	
+	public String getcustomerId() {
+		String text = customerId.getText();
+		return text;
+	}
 	
 	
 	
