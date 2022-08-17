@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-17T08:35:31Z" name="InetBankingV1" finished-at="2022-08-17T08:35:46Z" duration-ms="15711">
+  <suite started-at="2022-08-17T14:38:30Z" name="InetBankingV1" finished-at="2022-08-17T14:38:48Z" duration-ms="17882">
     <groups>
     </groups>
-    <test started-at="2022-08-17T08:35:31Z" name="BankingApp Test" finished-at="2022-08-17T08:35:46Z" duration-ms="15711">
+    <test started-at="2022-08-17T14:38:30Z" name="BankingApp Test" finished-at="2022-08-17T14:38:48Z" duration-ms="17882">
       <class name="org.inetBanking.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="browserConfig(java.lang.String)[pri:0, instance:org.inetBanking.testCases.TC_LoginTest_001@16eccb2e]" started-at="2022-08-17T08:35:31Z" name="browserConfig" finished-at="2022-08-17T08:35:36Z" duration-ms="5106" status="PASS">
+        <test-method is-config="true" signature="browserConfig(java.lang.String)[pri:0, instance:org.inetBanking.testCases.TC_LoginTest_001@16eccb2e]" started-at="2022-08-17T14:38:30Z" name="browserConfig" finished-at="2022-08-17T14:38:37Z" duration-ms="6685" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserConfig -->
-        <test-method signature="loginTest()[pri:0, instance:org.inetBanking.testCases.TC_LoginTest_001@16eccb2e]" started-at="2022-08-17T08:35:36Z" name="loginTest" finished-at="2022-08-17T08:35:37Z" duration-ms="1309" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:org.inetBanking.testCases.TC_LoginTest_001@16eccb2e]" started-at="2022-08-17T14:38:37Z" name="loginTest" finished-at="2022-08-17T14:38:38Z" duration-ms="1396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.inetBanking.testCases.TC_LoginTest_001@16eccb2e]" started-at="2022-08-17T08:35:37Z" name="browserClose" finished-at="2022-08-17T08:35:38Z" duration-ms="632" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.inetBanking.testCases.TC_LoginTest_001@16eccb2e]" started-at="2022-08-17T14:38:38Z" name="browserClose" finished-at="2022-08-17T14:38:39Z" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- org.inetBanking.testCases.TC_LoginTest_001 -->
       <class name="org.inetBanking.testCases.TC_AddCustomerTest_003">
-        <test-method is-config="true" signature="browserConfig(java.lang.String)[pri:0, instance:org.inetBanking.testCases.TC_AddCustomerTest_003@5ef5c734]" started-at="2022-08-17T08:35:38Z" name="browserConfig" finished-at="2022-08-17T08:35:41Z" duration-ms="3528" status="PASS">
+        <test-method is-config="true" signature="browserConfig(java.lang.String)[pri:0, instance:org.inetBanking.testCases.TC_AddCustomerTest_003@5ef5c734]" started-at="2022-08-17T14:38:39Z" name="browserConfig" finished-at="2022-08-17T14:38:43Z" duration-ms="4194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,11 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserConfig -->
-        <test-method signature="addNewCustomer()[pri:0, instance:org.inetBanking.testCases.TC_AddCustomerTest_003@5ef5c734]" started-at="2022-08-17T08:35:41Z" name="addNewCustomer" finished-at="2022-08-17T08:35:46Z" duration-ms="4278" status="PASS">
+        <test-method signature="addNewCustomer()[pri:0, instance:org.inetBanking.testCases.TC_AddCustomerTest_003@5ef5c734]" started-at="2022-08-17T14:38:43Z" name="addNewCustomer" finished-at="2022-08-17T14:38:47Z" duration-ms="4035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.inetBanking.testCases.TC_AddCustomerTest_003@5ef5c734]" started-at="2022-08-17T08:35:46Z" name="browserClose" finished-at="2022-08-17T08:35:46Z" duration-ms="667" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.inetBanking.testCases.TC_AddCustomerTest_003@5ef5c734]" started-at="2022-08-17T14:38:47Z" name="browserClose" finished-at="2022-08-17T14:38:48Z" duration-ms="681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->

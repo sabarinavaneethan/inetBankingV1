@@ -20,6 +20,7 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		
 		lp.setUserName(username);
 		logger.info("Username provided");
+		
 		lp.setPassWord(password);
 		logger.info("Password provided");
 		lp.clickSubmit();
