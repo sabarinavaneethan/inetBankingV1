@@ -5,7 +5,7 @@
 <listener class-name="org.inetBanking.utilities.Reporting"></listener>
 </listeners>
   <test thread-count="5" name="BankingApp Test">
-  <parameter name="browser" value="edge"></parameter>
+  <parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="org.inetBanking.testCases.TC_LoginTest_001"/>
      <!--<class name="org.inetBanking.testCases.TC_LoginDDT_002"/>-->
