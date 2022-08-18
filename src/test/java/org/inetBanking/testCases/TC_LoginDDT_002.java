@@ -16,9 +16,11 @@ public class TC_LoginDDT_002 extends BaseClass {
 		LoginPage lp = new LoginPage(driver);
 		
 		lp.setUserName(user);
-		logger.info("username provided");
+		logger.info("Username provided");
+		
 		lp.setPassWord(password);
 		logger.info("Password provided");
+		
 		lp.clickSubmit();
 		
 		if (isAlertPresent()==true)
@@ -27,7 +29,6 @@ public class TC_LoginDDT_002 extends BaseClass {
 			driver.switchTo().defaultContent();
 			logger.warn("login failed");
 			Assert.assertTrue(false);
-			
 		}
 		else 
 		{
@@ -36,16 +37,12 @@ public class TC_LoginDDT_002 extends BaseClass {
 			lp.clickLogOut();
 			driver.switchTo().alert().accept();
 			driver.switchTo().defaultContent();
-			
-			
-			
 		}
 	}
 	
 	
-	public boolean isAlertPresent() {
-		
-		
+	public boolean isAlertPresent() 
+	{
 		try {
 			driver.switchTo().alert();
 			return true;
@@ -55,8 +52,6 @@ public class TC_LoginDDT_002 extends BaseClass {
 		{
 			return false;
 		}
-		
-		
 	}
 	
 	

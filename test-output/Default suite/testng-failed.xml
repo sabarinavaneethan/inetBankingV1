@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.inetBanking.testCases.TC_LoginDDT_002">
+      <class name="org.inetBanking.testCases.TC_AddCustomerDDT_005">
         <methods>
-          <include name="loginDDT"/>
           <include name="browserClose"/>
           <include name="browserConfig"/>
+          <include name="AddCustomerDDT"/>
         </methods>
-      </class> <!-- org.inetBanking.testCases.TC_LoginDDT_002 -->
+      </class> <!-- org.inetBanking.testCases.TC_AddCustomerDDT_005 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -28,6 +28,7 @@ public class TC_EditCustomerTest_004 extends BaseClass{
 
 		
 		String custId = fileReader();
+		logger.info(custId);
 		logger.info("Customer Id is readed from json file");
 		
 		EditCustomerPage ep = new EditCustomerPage(driver);

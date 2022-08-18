@@ -82,8 +82,11 @@ public class XLUtils {
 		sheet = workbook.getSheet(xlSheet);
 		row = sheet.getRow(rownum);
 		cell = row.createCell(colnum);
+		
 		cell.setCellValue(data);
+		
 		fout = new FileOutputStream(xlfile);
+		
 		workbook.write(fout);
 		fin.close();
 		fout.close();

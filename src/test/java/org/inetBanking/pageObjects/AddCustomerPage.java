@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AddCustomerPage {
 
@@ -61,6 +62,8 @@ public class AddCustomerPage {
 	@FindBy(how=How.XPATH,using="(//table[@id=\"customer\"]//td)[5]")
 	WebElement customerId;
 	
+	
+	
 	public void exitButton() {
 		exitButton.click();
 	}
@@ -76,6 +79,7 @@ public class AddCustomerPage {
 	public void Gender() {
 		gender.click();
 	}
+	
 	
 	public void dateOfBirth(String dd,String mm,String yy) {
 		dob.sendKeys(dd);

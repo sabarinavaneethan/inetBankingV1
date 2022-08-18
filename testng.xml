@@ -5,13 +5,12 @@
 <listener class-name="org.inetBanking.utilities.Reporting"></listener>
 </listeners>
   <test thread-count="5" name="BankingApp Test">
-  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="browser" value="edge"></parameter>
     <classes>
-      <!--class name="org.inetBanking.testCases.TC_LoginTest_001"/>-->
-      <!--class name="org.inetBanking.testCases.TC_LoginDDT_002"/>-->
+      <class name="org.inetBanking.testCases.TC_LoginTest_001"/>
+     <!--<class name="org.inetBanking.testCases.TC_LoginDDT_002"/>-->
       <class name="org.inetBanking.testCases.TC_AddCustomerTest_003"/>
       <class name="org.inetBanking.testCases.TC_EditCustomerTest_004"/>
-      
     </classes>
   </test> <!-- BankingApp Test -->
 </suite> <!-- InetBankingV1 -->

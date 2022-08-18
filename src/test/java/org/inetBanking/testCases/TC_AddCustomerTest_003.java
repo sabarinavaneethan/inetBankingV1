@@ -1,24 +1,29 @@
 package org.inetBanking.testCases;
 
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.time.Duration;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.inetBanking.pageObjects.AddCustomerPage;
 import org.inetBanking.pageObjects.LoginPage;
+import org.inetBanking.utilities.XLUtils;
 import org.json.simple.JSONObject;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TC_AddCustomerTest_003 extends BaseClass 
 {
+	@SuppressWarnings("unchecked")
 	@Test
-	public void addNewCustomer() throws IOException, InterruptedException {
+	public void addNewCustomer() throws IOException  {
 		
 		LoginPage lp = new LoginPage(driver);
-		
-		
-		
+
 		lp.setUserName(username);
 		logger.info("Username provided");
 		
@@ -32,12 +37,13 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		cp.newCustomerAdd();
 
 		//String customerN = randomStringGenerator(6);
+
 		cp.customerName(customername);
 		cp.Gender();
 		cp.dateOfBirth("01","11","1998");
-		cp.address("Madurai Simmakkal");
+		cp.address("Simmakkal");
 		cp.city("Madurai");
-		cp.state("Tamilnadu");
+		cp.state("TamilNadu");
 		cp.pinNo("625001");
 		
 		String phoneNo = randomNumberGenerator(10);
@@ -52,12 +58,16 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		cp.password(password);
 		
 		cp.submitButton();
+		logger.info("Submit Button is clicked");
 		
 		String getcustomerId = cp.getcustomerId();
 		
 		jsonObject.put("customerID", getcustomerId);
 		filewriter(jsonObject);
+		logger.info(getcustomerId);
+		logger.info("Customer id is updated");
 
+		
 		logger.info("Verifing whether the Customer is add Successfully.....");
 		
 		
@@ -66,7 +76,7 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		if (contains==true) 
 		{
 			logger.info("TestCase is passed");
-			Assert.assertTrue(true);	
+			AssertJUnit.assertTrue(true);	
 
 		}
 		
@@ -74,20 +84,9 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		{
 			logger.info("Testcase is failed");
 			captureScreen(driver, "addNewCustomer");
-			Assert.assertTrue(false);
+			AssertJUnit.assertTrue(false);
 		}
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 }
