@@ -1141,3 +1141,43 @@
 2022-08-18 19:54:38 INFO  ebanking:40 - customer Id is passed on the edit customer page
 2022-08-18 19:54:38 INFO  ebanking:44 - submit button is clicked
 2022-08-18 19:54:38 INFO  ebanking:53 - Test case is passed
+2022-08-18 20:07:58 INFO  ebanking:16 - Url is opened
+2022-08-18 20:07:58 INFO  ebanking:21 - Username is entered
+2022-08-18 20:07:58 INFO  ebanking:24 - Password is entered
+2022-08-18 20:07:59 INFO  ebanking:26 - Login Button is clicked
+2022-08-18 20:07:59 INFO  ebanking:31 - testcase is passed
+2022-08-18 20:08:04 INFO  ebanking:28 - Username provided
+2022-08-18 20:08:04 INFO  ebanking:31 - Password provided
+2022-08-18 20:08:06 INFO  ebanking:36 - Customer details provided....
+2022-08-18 20:08:07 INFO  ebanking:61 - Submit Button is clicked
+2022-08-18 20:08:12 INFO  ebanking:20 - Username is provided
+2022-08-18 20:08:12 INFO  ebanking:23 - Password is provided
+2022-08-18 20:08:14 INFO  ebanking:26 - loginbutton is clicked
+2022-08-18 20:08:14 INFO  ebanking:31 - 56821
+2022-08-18 20:08:14 INFO  ebanking:32 - Customer Id is readed from json file
+2022-08-18 20:08:14 INFO  ebanking:37 - Edit customer Button is clicked
+2022-08-18 20:08:14 INFO  ebanking:40 - customer Id is passed on the edit customer page
+2022-08-18 20:08:15 INFO  ebanking:44 - submit button is clicked
+2022-08-18 20:08:15 INFO  ebanking:53 - Test case is passed
+2022-08-18 20:09:07 INFO  ebanking:16 - Url is opened
+2022-08-18 20:09:07 INFO  ebanking:21 - Username is entered
+2022-08-18 20:09:07 INFO  ebanking:24 - Password is entered
+2022-08-18 20:09:08 INFO  ebanking:26 - Login Button is clicked
+2022-08-18 20:09:08 INFO  ebanking:31 - testcase is passed
+2022-08-18 20:09:13 INFO  ebanking:28 - Username provided
+2022-08-18 20:09:13 INFO  ebanking:31 - Password provided
+2022-08-18 20:09:14 INFO  ebanking:36 - Customer details provided....
+2022-08-18 20:09:17 INFO  ebanking:61 - Submit Button is clicked
+2022-08-18 20:09:17 INFO  ebanking:67 - 12758
+2022-08-18 20:09:17 INFO  ebanking:68 - Customer id is updated
+2022-08-18 20:09:17 INFO  ebanking:71 - Verifing whether the Customer is add Successfully.....
+2022-08-18 20:09:17 INFO  ebanking:78 - TestCase is passed
+2022-08-18 20:09:22 INFO  ebanking:20 - Username is provided
+2022-08-18 20:09:22 INFO  ebanking:23 - Password is provided
+2022-08-18 20:09:23 INFO  ebanking:26 - loginbutton is clicked
+2022-08-18 20:09:23 INFO  ebanking:31 - 12758
+2022-08-18 20:09:23 INFO  ebanking:32 - Customer Id is readed from json file
+2022-08-18 20:09:24 INFO  ebanking:37 - Edit customer Button is clicked
+2022-08-18 20:09:24 INFO  ebanking:40 - customer Id is passed on the edit customer page
+2022-08-18 20:09:25 INFO  ebanking:44 - submit button is clicked
+2022-08-18 20:09:25 INFO  ebanking:53 - Test case is passed

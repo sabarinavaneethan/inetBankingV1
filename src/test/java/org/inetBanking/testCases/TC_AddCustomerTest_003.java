@@ -36,9 +36,9 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		logger.info("Customer details provided....");
 		cp.newCustomerAdd();
 
-		//String customerN = randomStringGenerator(6);
+		String customerN = randomStringGenerator(6);
 
-		cp.customerName(customername);
+		cp.customerName(customerN);
 		cp.Gender();
 		cp.dateOfBirth("01","11","1998");
 		cp.address("Simmakkal");
